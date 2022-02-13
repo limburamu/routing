@@ -1,46 +1,20 @@
-<h1>Hello world</h1>
 <nav>
-<a routerLink="home">Home</a>
-<br>
-<a routerLink="about">About</a>
-<br>
-<a routerLink="/user" routerLinkActive="active">User</a>
-<br>
-<a routerLink="/admin" routerLinkActive="active">Admin</a>
-<br><br>
-<a routerLink="user/10" >Peter</a>
-<br>
-<a routerLink="user/20" >Sam</a>
-<br>
-<a routerLink="user/30" >Bruce</a>
-<br>
+  <a routerLink="home">Home</a>
+  <br>
+  <a routerLink="about">About</a>
+  <br>
+  <a routerLink="/user" routerLinkActive="active">User</a>
+  <br>
+  <a routerLink="/admin" routerLinkActive="active">Admin</a>
+  <br><br>
+  <a routerLink="user/10" >Peter</a>
+  <br>
+  <a routerLink="user/20" >Sam</a>
+  <br>
+  <a routerLink="user/30" >Bruce</a>
+  <br>
 </nav>
 
-<div class="modal" id="myModal" [[ngClass]="{show: showModal}"]>
-    <div class="modal-dialog">
-      <div class="modal-content">
-  
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Modal Heading</h4>
-          <button type="button" class="close" (click)="showModal=false" data-dismiss="modal">&times;</button>
-        </div>
-  
-        <!-- Modal body -->
-        <div class="modal-body">
-          Modal body..
-        </div>
-  
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        </div>
-  
-      </div>
-    </div>
-  </div>
-  
-
-<button type="button" class="btn btn-primary" (click)="showModal=true" data-toggle="modal" data-target="#myModal">Open modal</button>
-
+<!-- <app-header></app-header> -->
 <router-outlet></router-outlet>
+<!-- <app-footer></app-footer> -->
