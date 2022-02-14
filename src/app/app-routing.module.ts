@@ -6,7 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {
-    path:'user/:id',
+    path:'user/:id', //Remove / and text after it
     component:UserComponent
   },
   {
