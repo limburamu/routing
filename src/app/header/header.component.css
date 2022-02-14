@@ -15,7 +15,7 @@ ul li{
 }
 
 li a{
-    color: #fff;  /* Remove color white or change color to dark colors */
+    color:black;  /* Remove color white or change color to dark colors */
     text-decoration: none;
     cursor: pointer;
 }
