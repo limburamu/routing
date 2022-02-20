@@ -13,6 +13,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { TestDialogComponent } from './test-dialog/test-dialog.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +22,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     AboutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TestDialogComponent
   ],
   imports: [
+    MatDialogModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
